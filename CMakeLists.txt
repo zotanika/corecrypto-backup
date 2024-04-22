@@ -1,4 +1,4 @@
- Copyright (c) (2018-2022) Apple Inc. All rights reserved.
+# Copyright (c) (2018-2022) Apple Inc. All rights reserved.
 #
 # corecrypto is licensed under Apple Inc.’s Internal Use License Agreement
 # (which is contained in the License.txt file distributed with corecrypto) and
@@ -205,7 +205,8 @@ elseif(CMAKE_SYSTEM_NAME STREQUAL "Linux")
       cckprng/src/cckprng_rekeygens.c
       cckprng/src/cckprng_reseed.c
       cckprng/src/cckprng_storeseed.c
-      cckprng/src/prng.c)
+      cckprng/src/prng.c
+      ccsha2/src/ccsha256_trng_di.c)
 
   set(CORECRYPTO_TEST_EXCLUDE_SRCS
       # exclude files that are OSX dependent
