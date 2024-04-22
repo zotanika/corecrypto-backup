@@ -12,6 +12,9 @@
 #include <math.h>
 #include <stdlib.h>
 #include "ccstats.h"
+#include "testmore.h"
+#include "testbyteBuffer.h"
+#include "testccnBuffer.h"
 
 static const int verbose=0;
 
